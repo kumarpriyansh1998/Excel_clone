@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    overflow: hidden;
+    font-size:14;
+
+    
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    height:100vh;
+    /* border: 2px solid red; */
+}
+
+.menu-highlight{
+    background-color: red;
+}
+
+.title-bar{
+    height:5vh;
+    /* border:2px solid green; */
+    background-color: #107c41;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:fff;
+
+}
+
+.menu-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18;      
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-bar{
+    height:5vh;
+    /* border:2px solid yellow; */
+    background-color: #107c41;
+    display: flex;
+
+    color:fff;
+}
+
+
+.menu-item.selected{
+    background-color: #fff;
+    color:#107c41;
+}
+
+.menu-item:hover{
+    background:#054924;
+    cursor: pointer;
+}
+.menu-item.selected:hover{
+    background-color: #fff;
+    cursor:default;
+}
+
+.menu-icon{
+    padding-left: 8px;
+    padding-right: 8px;
+    /* height:100%; */
+    /* display:flex; */
+
+    
+}
+
+.menu-icon-bar{
+    background-color: rgb(243, 240, 240);
+    height:6vh;
+    /* border:2px solid blue; */
+    display:flex;
+    align-items:center;
+    
+}
+
+.menu-icon:hover{
+    background-color: rgb(233, 230, 230);
+    cursor:pointer;
+
+}
+
+.formula-bar{
+    height:5vh;
+    /* border:2px solid black; */
+}
+.data-container{
+    height:75vh;
+    /* border:2px solid orange; */
+}
+
+.sheet-bar{
+    height:4vh;
+    /* border:2px solid color powderblue; */
+
+}
+
+.font-family-selector{
+    height:25px;
+    font-size: 15px;
+    width:150px;
+}
+
+.selector option{
+    font-size:14px;
+
+}
