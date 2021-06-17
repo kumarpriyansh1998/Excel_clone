@@ -19,7 +19,7 @@ body{
 }
 
 .title-bar{
-    height:5vh;
+    height:3vh;
     /* border:2px solid green; */
     background-color: #107c41;
     display: flex;
@@ -99,6 +99,8 @@ body{
 .sheet-bar{
     height:4vh;
     /* border:2px solid color powderblue; */
+    display:flex;
+    align-items: center;
 
 }
 
@@ -108,7 +110,41 @@ body{
     width:150px;
 }
 
+
+
 .selector option{
     font-size:14px;
 
+}
+
+.font-size-selector{
+    height:25px;
+    font-size: 15px;
+    width:40px;
+}
+
+.icon-left-scroll,.icon-right-scroll{
+    font-size:30px;
+}
+.icon-add{
+    color:#107c41;
+    width: 40px;
+}
+.scroller{
+    width:70px;
+}
+
+.sheet-tab-container{
+    border:1px solid lightgray;
+    width:calc(100vw-110px);
+}
+.sheet-tab{
+    border-bottom:4px solid #107c41; 
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width:80px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
 }

@@ -12,6 +12,7 @@
     <div class="container">
         <div class="title-bar">Book1 Excel</div>
        
+
         <div class="menu-bar">
             
             <div class="menu-file menu-item">File</div>
@@ -26,6 +27,7 @@
             <div class="material-icons menu-icon icon-copy">content_copy</div>
             <div class="material-icons menu-icon icon-paste">content_paste</div>
             <select class="selector font-family-selector">
+  
                 <option style="font-family: Noto Sans;" value="Noto Sans">Noto Sans</option>
                 <option style="font-family:Arial" value="Arial">Arial</option>
                 <option style="font-family:Calibri" value="Calibri">Calibri</option>
@@ -40,6 +42,10 @@
                 <option style="font-family:Verdana" value="Verdana">Verdana</option>
             </select>
             <select class="selector font-size-selector">
+                <option value="10">1</option>
+                <option value="10">2</option>
+                <option value="10">5</option>
+                <option value="10">8</option>
                 <option value="10">10</option>
                 <option value="12">12</option>
                 <option value="14">14</option>
@@ -68,7 +74,18 @@
             <div class="column-name-container"></div>
             <div class="input-cell-container"></div>
         </div>
-        <div class="sheet-bar"></div>
+        <div class="sheet-bar">
+
+            <div class="scroller">
+                <div class="material-icons icon-left-scroll">arrow_left</div>
+                <div class="material-icons icon-right-scroll">arrow_right</div>
+                  
+            </div>
+            <div class="material-icons icon-add">add</div>
+            <div class="sheet-tab-container">
+                <div class="sheet-tab">Sheet1</div>
+            </div>
+        </div>
 
     </div>
 </body>
